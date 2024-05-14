@@ -9,4 +9,5 @@ Projeto foi uma lição de casa do framework React, do curso Engenheiro Front En
 - Vite 
 - React
 - JavaScript
+- CSS
 - Git e Github
