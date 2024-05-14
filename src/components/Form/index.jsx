@@ -58,9 +58,11 @@ const Form = () => {
       </div>
 
       {peso && altura && peso && altura > 0 ? (
-        <p>seu IMC é de: {result}</p>
+        <p className={styles.resultado}>seu IMC é de: {result}</p>
       ) : (
-        <p>Digite os valores para aperecer o resultado</p>
+        <p className={styles.resultado}>
+          Digite os valores para aperecer o resultado
+        </p>
       )}
     </form>
   );
