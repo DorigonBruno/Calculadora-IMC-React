@@ -1,8 +1,12 @@
-# React + Vite
+<p>
+  <img src="./github/unknown_2024.05.14-18.40-ezgif.com-video-to-gif-converter.gif">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Projeto Calculadora IMC com React - ⚖️
+Projeto foi uma lição de casa do framework React, do curso Engenheiro Front End (Ebac). Utilizei o Vite e React para faze-la e CSS.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tecnologias - 👨‍💻
+- Vite 
+- React
+- JavaScript
+- Git e Github
