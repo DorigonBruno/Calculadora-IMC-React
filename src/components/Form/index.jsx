@@ -13,6 +13,11 @@ const Form = () => {
     return setResult(+imcFormatado);
   };
 
+  const reset = () => {
+    setPeso("");
+    setAltura("");
+  };
+
   return (
     <form className={styles.form}>
       <h2 className={styles.titulo}>Peso</h2>
@@ -31,16 +36,32 @@ const Form = () => {
         type="number"
         placeholder="1,78"
       />
-      <button
-        className={styles.button}
-        onClick={(e) => {
-          e.preventDefault();
-          calculaImc();
-        }}
-      >
-        Calcular
-      </button>
-      <p>{result}</p>
+      <div className={styles.btnContainer}>
+        <button
+          className={styles.button}
+          onClick={(e) => {
+            e.preventDefault();
+            calculaImc();
+          }}
+        >
+          Calcular
+        </button>
+        <button
+          className={styles.button}
+          onClick={(e) => {
+            e.preventDefault();
+            reset();
+          }}
+        >
+          Resetar
+        </button>
+      </div>
+
+      {peso && altura && peso && altura > 0 ? (
+        <p>seu IMC é de: {result}</p>
+      ) : (
+        <p>Digite os valores para aperecer o resultado</p>
+      )}
     </form>
   );
 };

@@ -4,11 +4,12 @@
   margin: 0 auto;
   max-width: 600px;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 30px;
   background: #f8f4e4;
   padding: 20px;
   border-radius: 10px;
 }
+
 
 .titulo{
   color: #ab6a6e;
@@ -20,17 +21,18 @@
 }
 
 .input {
-  max-width: 60px;
+  max-width: 80px;
   margin: 0 auto;
   margin-top: 6px;
   margin-bottom: 10px;
+  padding: 6px;
+  font-size: 1rem;
 }
 
 .button {
   max-width: 130px;
   margin: 0 auto;
   margin-bottom: 40px;
-  background: #ab6a6e;
   border: none;
   font-size: 1.125rem;
   font-weight: 700;
@@ -39,5 +41,15 @@
   text-align: center;
   cursor: pointer;
   margin-top: 10px;
+}
+
+.button:first-child{
+  margin-right: 10px;
+  background: #ab6a6e;
   color: #400e28;
+}
+
+.button:last-child{
+  background: #74819d;
+  color: #e3b18b;
 }
