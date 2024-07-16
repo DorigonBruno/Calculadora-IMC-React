@@ -18,6 +18,8 @@ const Form = () => {
     setAltura("");
   };
 
+  if (altura === null) return null;
+
   return (
     <form className={styles.form}>
       <h2 className={styles.titulo}>Peso</h2>
